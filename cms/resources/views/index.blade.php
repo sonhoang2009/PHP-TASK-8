@@ -5,10 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Frozen Yogurt Shop</title>
-	<link rel="stylesheet" href="{{URL:asset('css/style.css')}}" type="text/css">
+	<link rel="stylesheet" href="{{('css/style.css')}}" type="text/css">
 
-	<link rel="stylesheet" type="text/css" href="{{URL:asset('css/mobile.css')}}">
-	<script src="{{URL:asset('js/mobile.js')}}" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="{{('css/mobile.css')}}">
+	<script src="{{('js/mobile.js')}}" type="text/javascript"></script>
 {{--    <?php include(public_path().'public/css/style.css');--}}
 {{--    include(public_path().'public/css/mobile.css');--}}
 {{--    ?>--}}
@@ -18,7 +18,7 @@
 	<div id="page">
 		<div id="header">
 			<div>
-				<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+				<a href="index.html" class="logo"><img src="{{'images/logo.png'}}" alt=""></a>
 				<ul id="navigation">
 					<li class="selected">
 						<a href="index.html">Home</a>
@@ -47,7 +47,7 @@
 		</div>
 		<div id="body" class="home">
 			<div class="header">
-				<img src="images/bg-home.jpg" alt="">
+				<img src="{{'images/bg-home.jpg'}}" alt="">
 				<div>
 					<a href="product.html">Freeze Delight</a>
 				</div>
@@ -59,7 +59,7 @@
 						<h2>The Twist of Healthy Yogurt</h2>
 						<p>This website template has been designed by freewebsitetemplates.com for you, for free. You can replace all this text with your own text.</p>
 					</div>
-					<img src="images/yogurt.jpg" alt="">
+					<img src="{{'images/yogurt.jpg'}}" alt="">
 				</div>
 			</div>
 			<div class="footer">
